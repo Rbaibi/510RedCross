@@ -1,8 +1,8 @@
-# 510RedCross
-510 Red Cross Challenge - 2nd edition of  Hackathon for Good
+# 510 Red Cross Challenge
+2nd edition of  Hackathon for Good
 
 
-# OPTIMIZING DISASTER IMPACT ANALYSIS WITH GROUND MEASUREMENTS     
+## OPTIMIZING DISASTER IMPACT ANALYSIS WITH GROUND MEASUREMENTS     
 Problem: Analysts, using satellite imagery are capable of quickly assessing damage, flood extents, wildfire extent and more. However, to make these algorithms more reliable and trustworthy they need to be provided with very local data coming from the disaster affected area. These data can be used to feed the analysis or verify its accuracy. 
 
 Current systems for data collection in humanitarian context exist, but are still quite difficult to set up (e.g. Open Data Kit, Open Map Kit). Or they don’t work properly offline, because background maps and satellite data are not cached for offline use. Also some are not very intuitive, meaning that volunteers who collect data need to be trained, which is a time consuming activity in the midst of a disaster. Briefings on how to collect data and where, is usually not part of the existing data collection applications, and need to be sent separately to volunteers. There is no means to reimburse volunteers directly for their costs of traveling to an area where data needs to be collected, nor feedback systems to allow volunteers to provide feedback about the data collection mission.
