@@ -1,5 +1,5 @@
 # 510 Red Cross Challenge
-2nd edition of the Hackathon for Good
+2nd edition of the Hackathon for Peace, Justice and Security
 
 
 ## OPTIMIZING DISASTER IMPACT ANALYSIS WITH GROUND MEASUREMENTS     
