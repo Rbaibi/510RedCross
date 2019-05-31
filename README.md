@@ -1,5 +1,5 @@
 # 510 Red Cross Challenge
-2nd edition of  Hackathon for Good
+2nd edition of the Hackathon for Good
 
 
 ## OPTIMIZING DISASTER IMPACT ANALYSIS WITH GROUND MEASUREMENTS     
@@ -11,11 +11,11 @@ Current systems for data collection in humanitarian context exist, but are still
 
  Volunteers should be able to receive data collection missions for a number of disasters:
 
--       Flood extent (flooded, no flood, flood border). Same for wildfires
+-Flood extent (flooded, no flood, flood border). Same for wildfires
 
--       Damage to buildings (no damage, slight damage, severe damage, completely destroyed)
+-Damage to buildings (no damage, slight damage, severe damage, completely destroyed)
 
--       Locations of e.g. landslides or other localized disasters.
+-Locations of e.g. landslides or other localized disasters.
 
 **Datasets & Algorithms:** We can show examples of e.g. Flood Extent analysis and Damage Assessments as an intro to the Hackathon. But the datasets are not per say necessary to do the work.
 
