@@ -1,7 +1,5 @@
 # 510 Red Cross Challenge
-2nd edition of the Hackathon for Peace, Justice and Security
-
-https://www.hackathonforgood.org
+[2nd edition of the Hackathon for Peace, Justice and Security](https://www.hackathonforgood.org)
 
 
 ## OPTIMIZING DISASTER IMPACT ANALYSIS WITH GROUND MEASUREMENTS     
@@ -19,7 +17,9 @@ Current systems for data collection in humanitarian context exist, but are still
 
 -Locations of e.g. landslides or other localized disasters.
 
-**Datasets & Algorithms:** We can show examples of e.g. Flood Extent analysis and Damage Assessments as an intro to the Hackathon. But the datasets are not per say necessary to do the work.
+## Datasets
+We show examples of e.g. Flood Extent analysis and Damage Assessments as an intro to the Hackathon.
+The datasets are not necessary to do the work.
 
 ## Deep Learning Resources
 If you are developing a deep neural network based solution, you can use the free GPUs provided by either Google Colab or Kaggle. Here are the instructions for both:
