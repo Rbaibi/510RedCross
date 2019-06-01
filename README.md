@@ -1,6 +1,8 @@
 # 510 Red Cross Challenge
 2nd edition of the Hackathon for Peace, Justice and Security
 
+https://www.hackathonforgood.org
+
 
 ## OPTIMIZING DISASTER IMPACT ANALYSIS WITH GROUND MEASUREMENTS     
 **Problem:** Analysts, using satellite imagery are capable of quickly assessing damage, flood extents, wildfire extent and more. However, to make these algorithms more reliable and trustworthy they need to be provided with very local data coming from the disaster affected area. These data can be used to feed the analysis or verify its accuracy. 
