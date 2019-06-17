@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "732327034122",
+    "firebase_url": "https://whatthehack510.firebaseio.com",
+    "project_id": "whatthehack510",
+    "storage_bucket": "whatthehack510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732327034122:android:8ebe2f398e8c9687",
+        "android_client_info": {
+          "package_name": "org.whatthehack.fiveten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732327034122-7p3u2r0i5a7ntv7a8ihqdam0fa4gmmmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr7ecKKgj_BoM3pRrdZvmy3WsiIbyjkX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732327034122-7p3u2r0i5a7ntv7a8ihqdam0fa4gmmmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
