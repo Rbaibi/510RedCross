@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flood Markers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(
+            document.getElementById('map'),
+            {center: new google.maps.LatLng({{ points.0.latitude }}, {{ points.0.longitude }} ), zoom: 16});
+
+        var features = [
+		{% for point in points %}
+			{
+				position: new google.maps.LatLng({{ point.latitude }}, {{ point.longitude }} ),
+				timestamp: "{{ point.timestamp }}",
+				depth: {{ point.depth }},
+				flooded: ("{{ point.is_flooded }}" == "True"),
+				name: "{{point.task}}"
+			},
+		{% endfor %}
+		];
+
+		var blueTriangle = {
+			path: 'M 100 100 L 300 100 L 200 300 z',
+			fillColor: 'blue',
+			fillOpacity: 0.8,
+			scale: 0.09,
+			strokeColor: 'black',
+			strokeWeight: 0.1
+		};
+		
+		var greenTriangle = {
+			path: 'M 100 200 L 300 200 L 200 0 z',
+			fillColor: 'lime',
+			fillOpacity: 0.8,
+			scale: 0.09,
+			strokeColor: 'green',
+			strokeWeight: 1
+		};
+
+
+        // Create markers.
+        for (var i = 0; i < features.length; i++) {
+          var marker = new google.maps.Marker({
+            position: features[i].position,
+			title: (features[i].flooded ? "Flooded edge" : "Not flooded") + "\non " 
+					+ features[i].timestamp + ( (features[i].flooded && (features[i].depth>0)) ? "\nDepth: " + features[i].depth: "")
+					+ "\n" + features[i].name,
+			icon: (features[i].flooded ? blueTriangle : greenTriangle),
+            map: map
+          });
+        };
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+  </body>
+</html>

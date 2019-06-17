@@ -1,0 +1,29 @@
+.login {
+  background-color: #FFFFFF;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tasklist {
+  background-color: #FFFFFF;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*.buttonGridItem: {
+  width: 100%;
+  align-items: center;
+}*/
+
+.image {
+	align-items: left;
+	height: calc(10px + 10vmin);
+	width: calc(10px + 10hmin);
+}
+

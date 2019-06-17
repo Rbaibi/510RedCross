@@ -1,0 +1,47 @@
+[
+{
+    "model": "floodextent.community",
+    "pk": 2,
+    "fields": {
+        "name": "Den Haag",
+        "parent": null
+    }
+},
+{
+    "model": "floodextent.volunteer",
+    "pk": 1,
+    "fields": {
+        "name": "Rodrigo Goncalves",
+        "slug": "rodrigo-goncalves",
+        "community": 2
+    }
+},
+{
+    "model": "floodextent.mission",
+    "pk": 1,
+    "fields": {
+        "name": "Map Extent of The Hague Tech",
+        "description": "This is a proof-of-concept mission."
+    }
+},
+{
+    "model": "floodextent.task",
+    "pk": 1,
+    "fields": {
+        "description": "Map the entrance of the building.",
+        "status": "active",
+        "mission": 1,
+        "volunteer": 1
+    }
+},
+{
+    "model": "floodextent.task",
+    "pk": 2,
+    "fields": {
+        "description": "Bootstrap the project!",
+        "status": "complete",
+        "mission": 1,
+        "volunteer": 1
+    }
+}
+]
